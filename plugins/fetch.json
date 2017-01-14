@@ -1,0 +1,20 @@
+{
+    "cordova-plugin-googlemaps": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-googlemaps"
+        },
+        "is_top_level": true,
+        "variables": {
+            "API_KEY_FOR_ANDROID": "AIzaSyAOmtCib9Yfh_lMjppvpUjA_1R5QSE4hQs"
+        }
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-geolocation@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
