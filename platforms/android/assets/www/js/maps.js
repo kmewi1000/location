@@ -1,4 +1,15 @@
-  //></script>
+  //></script
+/*$('#map').height($(window).height() - (50 + $('[data-role=header]').height() - $('[data-role=footer]').height()));
+initialize('map',posicionActual);
+
+setTimeout(function() {
+       google.maps.event.trigger(map,'resize');
+      dropMarkers();
+       var markerCluster = new MarkerClusterer(map, markers);
+      map.fitBounds(bounds);}, 200);
+*/
+
+
         var divMapa = document.querySelector('#map');
         navigator.geolocation.getCurrentPosition(fn_ok, fn_mal);
         function fn_mal(){}
